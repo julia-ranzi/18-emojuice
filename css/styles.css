@@ -2,6 +2,7 @@ body {
   max-width: 380px;
   margin: auto;
   text-align: center;
+  background-color: azure;
 }
 
 img {
@@ -12,6 +13,7 @@ img {
 header {
   border-top: #57BB6B solid 12px;
   background: url(../img/fond-fruits.png);
+  background-size: cover;
   padding: 30px;
 }
 
@@ -39,15 +41,12 @@ header {
   border-radius: 15px;
   padding: 15px 25px;
   margin: 5px;
+  text-decoration: none;
 }
 
 .cta-light {
   background-color: #fff;
   color: #57BB6B;
-}
-
-a {
-  text-decoration: none;
 }
 
 h2 {
@@ -62,9 +61,54 @@ p {
   font-size: 16px;
 }
 
+.picto {
+  max-width: 28px;
+}
+
+.produits-box .picto {
+  max-width: 82px;
+}
+
 .section-green {
   background-color: #57BB6B;
   color: #fff;
+  padding-top: 15px;
+}
+
+.section-light {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.produits-box {
+  border-radius: 30px;
+  padding: 25px;
+  margin: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.picto-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.banane {
+  background-color: #FFF8D7;
+}
+
+.kiwi {
+  background-color: #C4F2AD;
+}
+
+.cafe {
+  background-color: #D3C6B2;
+}
+
+.fraise {
+  background-color: #F7A4B4;
 }
 
 .produits-box {
