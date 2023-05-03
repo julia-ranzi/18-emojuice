@@ -81,6 +81,12 @@ p {
   max-width: 28px;
 }
 
+.picto-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .produits-box .picto {
   max-width: 82px;
 }
