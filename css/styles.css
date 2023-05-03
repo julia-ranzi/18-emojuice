@@ -146,3 +146,10 @@ main .section-light {
 footer {
   color: #57BB6B;
 }
+
+.credits {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
