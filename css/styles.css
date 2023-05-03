@@ -2,7 +2,7 @@ body {
   max-width: 380px;
   margin: auto;
   text-align: center;
-  background-color: azure;
+  background-color: black;
 }
 
 img {
@@ -18,7 +18,7 @@ header {
 }
 
 .box-title {
-  background-color: #fff;
+  background-color: #FFFFFFE6;
   padding: 10px 50px;
   margin-bottom: 30px;
   text-align: center;
@@ -151,5 +151,5 @@ footer {
   font-family: 'Maven Pro', sans-serif;
   font-weight: 400;
   font-size: 12px;
-  padding-bottom: 20px;
+  padding: 60px 0 40px 0;
 }
