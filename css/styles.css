@@ -60,6 +60,9 @@ a {
 
 h2 {
   font-size: 26px;
+  margin: 20px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 700;
 }
 
 h3 {
@@ -70,6 +73,10 @@ h3 {
 
 .sous-titre {
   font-family: 'Quattrocento', serif;
+  font-size: 16px;
+}
+
+.produits-box .sous-titre {
   opacity: 0.5;
 }
 
@@ -84,7 +91,7 @@ p {
 .picto-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .produits-box .picto {
@@ -94,18 +101,22 @@ p {
 .section-green {
   background-color: #57BB6B;
   color: #fff;
-  padding-top: 15px;
+  padding: 40px 20px;
 }
 
 .section-light {
-  padding: 50px;
+  padding: 30px;
   background-color: #fff;
+}
+
+main .section-light {
+  padding: 60px 40px;
 }
 
 .produits-box {
   border-radius: 30px;
   padding: 25px;
-  margin: 40px 20px;
+  margin: 40px 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
