@@ -110,7 +110,7 @@ p {
 }
 
 main .section-light {
-  padding: 60px 40px;
+  padding: 60px 45px;
 }
 
 .produits-box {
@@ -121,6 +121,7 @@ main .section-light {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
+  box-shadow: 1px 1px 10px black;
 }
 
 .banane {
