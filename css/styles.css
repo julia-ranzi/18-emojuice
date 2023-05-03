@@ -48,3 +48,16 @@ header {
 a {
   text-decoration: none;
 }
+
+.section-green {
+  background-color: #57BB6B;
+  color: #fff;
+}
+
+.produits-box {
+  color: #000;
+}
+
+footer {
+  color: #57BB6B;
+}
