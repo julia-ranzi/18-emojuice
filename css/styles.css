@@ -81,6 +81,7 @@ h3 {
 .produits-box .sous-titre {
   opacity: 0.5;
   margin-top: 0;
+  padding-bottom: 20px;
 }
 
 .cafe p {
