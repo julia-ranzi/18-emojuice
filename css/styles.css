@@ -31,7 +31,7 @@ header {
 }
 
 a {
-  font-family: 'Quattrocento', serif;
+  font-family: 'Maven Pro', serif;
   font-weight: 700;
   color: #000;
 }
@@ -46,11 +46,11 @@ a {
   background-color: #57BB6B;
   color: #fff;
   border-radius: 15px;
-  padding: 15px 25px;
+  padding: 15px 20px;
   margin: 5px;
   text-decoration: none;
-  font-family: 'Maven Pro', sans-serif;
   font-weight: 400;
+  font-size: 20px;
 }
 
 .cta-light {
@@ -69,19 +69,23 @@ h3 {
   font-size: 30px;
   font-family: 'Sriracha', cursive;
   font-weight: 400;
+  margin: 0;
 }
 
 .sous-titre {
   font-family: 'Quattrocento', serif;
   font-size: 16px;
+  font-weight: 400;
 }
 
 .produits-box .sous-titre {
   opacity: 0.5;
+  margin-top: 0;
 }
 
-p {
-  font-size: 16px;
+.cafe p {
+  color: #fff;
+  opacity: 0.5;
 }
 
 .picto {
@@ -115,13 +119,14 @@ main .section-light {
 
 .produits-box {
   border-radius: 30px;
-  padding: 25px;
+  padding: 30px;
   margin: 40px 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
   box-shadow: 1px 1px 10px black;
+  color: #000;
 }
 
 .banane {
@@ -138,10 +143,6 @@ main .section-light {
 
 .fraise {
   background-color: #F7A4B4;
-}
-
-.produits-box {
-  color: #000;
 }
 
 footer {
